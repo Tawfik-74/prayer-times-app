@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Prayer Timers</title>
+
+    <!--fonts fam -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="/node_modules/axios/dist/axios.js"></script>
+  </head>
+
+  <body style="direction: rtl">
+    <div id="container" style="height: 300px">
+      <div>
+        <div id="contofdata">
+          <h1 id="cityname">الرياض</h1>
+
+          <h6 id="datename">الجمعة 24 ابريل</h6>
+        </div>
+
+        <hr style="margin: 0px 50px; border-color: #5200e1" />
+      </div>
+      <div id="allcards" style="height: 110%">
+        <div id="cards">
+          <div id="headerofcards">
+            <h1>الفجر</h1>
+          </div>
+          <div id="bodyofcards">
+            <h1 id="fajrtime">4:15</h1>
+          </div>
+        </div>
+        <div id="cards">
+          <div id="headerofcards">
+            <h1>الشروق</h1>
+          </div>
+          <div id="bodyofcards">
+            <h1 id="sunraisingtime">4:15</h1>
+          </div>
+        </div>
+        <div id="cards">
+          <div id="headerofcards">
+            <h1>الظهر</h1>
+          </div>
+          <div id="bodyofcards">
+            <h1 id="dhuhrtime">4:15</h1>
+          </div>
+        </div>
+        <div id="cards">
+          <div id="headerofcards">
+            <h1>العصر</h1>
+          </div>
+          <div id="bodyofcards">
+            <h1 id="asr">4:15</h1>
+          </div>
+        </div>
+        <div id="cards">
+          <div id="headerofcards">
+            <h1>المغرب</h1>
+          </div>
+          <div id="bodyofcards">
+            <h1 id="maghribtime">4:15</h1>
+          </div>
+        </div>
+        <div id="cards">
+          <div id="headerofcards">
+            <h1>العشاء</h1>
+          </div>
+          <div id="bodyofcards">
+            <h1 id="ishrtime">4:15</h1>
+          </div>
+        </div>
+      </div>
+
+      <div id="selectCity">
+        <select id="select"></select>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
