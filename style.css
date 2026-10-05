@@ -79,3 +79,123 @@ h6 {
 
   margin: 50px;
 }
+
+/* =========================
+   Responsive Design
+========================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+  #cityname {
+    font-size: 70px;
+  }
+
+  #datename {
+    font-size: 30px;
+  }
+
+  #allcards {
+    flex-wrap: wrap;
+    height: auto !important;
+  }
+
+  #cards {
+    width: 30%;
+    height: 250px;
+  }
+
+  #bodyofcards h1 {
+    font-size: 55px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  body {
+    height: auto;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  #container {
+    height: auto !important;
+  }
+
+  #contofdata {
+    margin-right: 15px;
+    padding-top: 20px;
+  }
+
+  #cityname {
+    font-size: 50px;
+  }
+
+  #datename {
+    font-size: 22px;
+  }
+
+  #allcards {
+    width: 90%;
+    height: auto !important;
+
+    flex-wrap: wrap;
+
+    margin-top: 20px;
+    gap: 15px;
+  }
+
+  #cards {
+    width: 46%;
+    height: 200px;
+
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  #headerofcards {
+    text-align: center;
+  }
+
+  #headerofcards h1 {
+    font-size: 24px;
+  }
+
+  #bodyofcards {
+    height: 70%;
+  }
+
+  #bodyofcards h1 {
+    font-size: 45px;
+  }
+
+  #selectCity {
+    margin: 30px 15px;
+  }
+
+  #select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-family: "Tajawal", sans-serif;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 380px) {
+  #cityname {
+    font-size: 40px;
+  }
+
+  #datename {
+    font-size: 18px;
+  }
+
+  #cards {
+    width: 100%;
+    height: 170px;
+  }
+
+  #bodyofcards h1 {
+    font-size: 40px;
+  }
+}
